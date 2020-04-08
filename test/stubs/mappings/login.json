@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/login",
+    "bodyPatterns": [
+    ]
+  },
+  "response": {
+    "status": 404
+  }
+}

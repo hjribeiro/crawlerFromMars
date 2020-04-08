@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/pages",
+    "bodyPatterns": [
+    ]
+  },
+  "response": {
+    "status": 200,
+     "fixedDelayMilliseconds": 7000,
+    "headers": {
+      "Content-Type": "text/html"
+    },
+    "bodyFileName": "pages.html"
+
+  }
+}

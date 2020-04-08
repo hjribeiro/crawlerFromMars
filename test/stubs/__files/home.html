@@ -1,0 +1,24 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Scrape This Site | A public sandbox for learning web scraping</title>
+
+  </head>
+
+  <body>
+      <a href="/pages/" class="btn btn-lg btn-default" />This link will work and return a reference to itself, with a delay of 7 seconds</a>
+      <a href="/lessons/" class="btn btn-lg btn-primary" > this link will have a 15 second delay to force timeout exception handling</a>
+      <a href="/"> repeated </a>
+      <a href="/faq/" class="nav-link" > This link will return a CONNECTION_RESET_BY_PEER error to force that exception in the code </a>
+      <a href="/login/" class="nav-link"> This link will return a 404 </a>
+      <a href="/pages/" class="btn btn-lg btn-default" />Repeated</a>
+      <a href="/lessons/"> This will return a 500 with a 6 second delay - overall execution should be 10 second but less than 13 as multiprocessing will reduce that time</a>
+      <a href="http://facebook.com/login">external</a>
+      <a href="http://localhost:8080/remote">same domain with full website name, https should be changed to http - will return same as /pages</a>
+      <a href="http://community.localhost:8080/forum">external</a>
+      <a href="table?row=1">relative path with query paramaters</a>
+      <a href="pages#beggining">relative path with fragment - will be ignored</a>
+
+  </body>
+
+</html>

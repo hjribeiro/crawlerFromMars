@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/table?row=1",
+    "bodyPatterns": [
+    ]
+  },
+  "response": {
+    "status": 200,
+     "fixedDelayMilliseconds": 7000,
+    "headers": {
+      "Content-Type": "text/html"
+    },
+    "bodyFileName": "table.html"
+
+  }
+}

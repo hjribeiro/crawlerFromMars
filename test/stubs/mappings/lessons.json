@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/lessons",
+    "bodyPatterns": [
+    ]
+  },
+  "response": {
+    "status": 200,
+     "fixedDelayMilliseconds": 15000,
+    "headers": {
+      "Content-Type": "text/html"
+    },
+    "bodyFileName": "lessons.html"
+
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/remote",
+    "bodyPatterns": [
+    ]
+  },
+  "response": {
+    "status": 200,
+     "fixedDelayMilliseconds": 5000,
+    "headers": {
+      "Content-Type": "text/html"
+    },
+    "bodyFileName": "pages.html"
+
+  }
+}
